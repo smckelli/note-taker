@@ -20,8 +20,8 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 
 # Screenshot
 
-![image](./public/assets/images/screenshot1.png)
-![image](./public/assets/images/screenshot2.png)
+![image](/public/assets/images/screenshot1.png)
+![image](/public/assets/images/screenshot2.png)
 
 # Deployed app to Heroku
 
