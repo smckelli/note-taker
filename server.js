@@ -19,13 +19,6 @@ app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, './public/index.html'));
 });
 
-<<<<<<< HEAD
-// This code is largely borrowed from amandalatkins at https://github.com/amandalatkins/note-taker
-// I got entirely smoked on this challenge with very little understanding of how to do this or even start
-// I needed to see a successful code to understand how to do this
-// This is my third repository I started for this challenge
-// I have run out of time and I need to submit something, hopefully to come back to later
-=======
 app.get('/notes', (req, res) => {
     res.sendFile(path.join(__dirname, './public/notes.html'));
 });
@@ -82,4 +75,3 @@ app.delete('/api/notes/:id', (req, res) => {
 app.listen(PORT, () => {
     console.log(`API server now on port ${PORT}!`);
 });
->>>>>>> server-code
